@@ -5,12 +5,12 @@ NodeJS wrapper/toolkit for [MonaPay](https://monapay.com) v1
 ### Install via NPM
 
 ```
-coming soon
+npm i monapay -s
 ```
 
 ### Usage
 ```js
-const MonaPay = require('-');
+const MonaPay = require('monapay');
 const client = new MonaPay('merchant_id', 'product_key');
 
 let response = client.paymentLink({
