@@ -1,7 +1,7 @@
 {
-  "name": "monapay-util",
+  "name": "monapay",
   "version": "1.0.0",
-  "description": "A simple util for MonaPay",
+  "description": "A simple wrapper for MonaPay",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
