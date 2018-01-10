@@ -26,7 +26,7 @@ console.log(response);
 - paymentLink `-> { refId: string, link: string }`
 > This method generates a payment link in which the developer calls either as a redirect or in an iframe
 - verifyTransaction `-> { response: object }`
-> This method generates a payment link in which the developer calls either as a redirect or within an iframe
+> This method verifies the transaction with the `refId` and returns the HTTP response
 
 
 ## Thanks!
