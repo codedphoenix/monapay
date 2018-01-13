@@ -63,7 +63,10 @@ MonaPay.prototype.verifyTransaction = function (refId) {
         };
 
         request(options, (err, response, body) => {
-            if (err) reject(err);
+            if (err) {
+                reject(err);
+                return;
+            };
             resolve(JSON.parse(body));
         });
     });
